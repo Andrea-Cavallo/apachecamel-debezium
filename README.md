@@ -19,6 +19,8 @@ This is a simple microservice designed to simulate Artemis queues that will late
 ## Second Microservice [camel debezium artemis connector]
 This microservice contains all the core business logic.
 
+## OPTIONAL: Third Microservice [camel-kafka-connect-source/connector] 
+is to utilize Kafka Connect Source, targeting a SQL Server database, to continuously poll and detect any changes. This is useful for comparing this connector with the Debezium connector, and to perform tests, stress tests for performance, and other evaluations.
 
 ## How to Use
 
@@ -38,7 +40,7 @@ To fully test the project with Apache Camel, you'll need to:
 2)Start the artemis-producer Microservice: Use the REST call v1/produce to generate some queues. Once this step is completed, you'll have everything you need to test the Apache Camel microservice and will be ready to capture all changes.
 
 I used SpringToolSuite as my IDE and Java 11 with Lombok and Maven.
-Note that what I used for Debezium in Apache Camel is the embedded mode."
+Note that what I used for Debezium in Apache Camel is the embedded mode.
 
 ## Links
 https://medium.com/@andreacavallo
