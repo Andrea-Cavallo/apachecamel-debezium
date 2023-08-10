@@ -4,13 +4,13 @@ This project aims to leverage the powerful Apache Camel framework, not only to c
 
 ## Techologies Used:
 
--Apache Camel
--Spring Boot
--Apache Kafka
--Artemis
--SqlServer
--Docker
--Maven
+- Apache Camel
+- Spring Boot
+- Apache Kafka
+- Artemis
+- SqlServer
+- Docker
+- Maven
 
 
 ## First Microservice [artemis-producer]
